@@ -424,9 +424,14 @@
               <FilePath>..\USER-CODE\USER\Src\main.c</FilePath>
             </File>
             <File>
-              <FileName>stm32f1xx_it.c</FileName>
+              <FileName>stepmotor_core.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\USER-CODE\USER\Src\stm32f1xx_it.c</FilePath>
+              <FilePath>..\USER-CODE\USER\Src\stepmotor_core.c</FilePath>
+            </File>
+            <File>
+              <FileName>stepmotor_dev.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\USER-CODE\USER\Src\stepmotor_dev.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -444,11 +449,6 @@
               <FilePath>..\USER-CODE\HARDWARE\SYSTEM\sys.c</FilePath>
             </File>
             <File>
-              <FileName>gpio.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\USER-CODE\HARDWARE\Src\gpio.c</FilePath>
-            </File>
-            <File>
               <FileName>key.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\USER-CODE\HARDWARE\Src\key.c</FilePath>
@@ -462,6 +462,11 @@
               <FileName>usart.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\USER-CODE\HARDWARE\Src\usart.c</FilePath>
+            </File>
+            <File>
+              <FileName>led.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\USER-CODE\HARDWARE\Src\led.c</FilePath>
             </File>
           </Files>
         </Group>

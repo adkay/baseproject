@@ -17,9 +17,8 @@
 extern u8 Trg;
 extern u8 Cont;
 
+void key_Init(void);
 void keyRead(void);
 
 #endif
-
-
 

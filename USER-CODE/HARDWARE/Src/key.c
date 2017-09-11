@@ -4,6 +4,17 @@
 
 u8 Trg=0;
 u8 Cont=0;
+void key_Init(void)
+{
+	RCC->APB2ENR|=1<<6;    	//PORTE
+	GPIOE->CRL&=0XFFF0000F;
+	GPIOE->CRL|=0X00088880;
+	GPIOE->ODR|=1<<1;
+	GPIOE->ODR|=1<<2;
+	GPIOE->ODR|=1<<3;
+	GPIOE->ODR|=1<<4;  
+	
+}
 
 void keyRead(void)
 {
